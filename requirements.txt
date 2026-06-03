@@ -1,0 +1,9 @@
+streamlit
+streamlit-mic-recorder
+faster-whisper
+transformers
+torch
+accelerate
+deep-translator
+kokoro
+soundfile
