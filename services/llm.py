@@ -33,7 +33,7 @@ def generate_response(prompt):
     
     generated_ids = model.generate(
         **model_inputs,
-        max_new_tokens=256
+        max_new_tokens=64
     )
 
     generated_ids = [
