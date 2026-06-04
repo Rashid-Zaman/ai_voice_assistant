@@ -5,6 +5,9 @@ from services.speech_to_text import transcribe_audio
 from services.translator import translate
 from services.llm import generate_response
 from services.tts import text_to_speech
+import os
+
+os.makedirs("audio", exist_ok=True)
 
 st.set_page_config(
     page_title="AI Voice Assistant",
